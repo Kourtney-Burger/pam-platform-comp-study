@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Folder Structure &amp; Content – NOAA quarto simple</title>
+<title>New Content – NOAA quarto simple</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../index.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -247,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/folderStructure.html">Folder Structure &amp; Content</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">New Content</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -285,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/folderStructure.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/folderStructure.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Folder Structure &amp; Content</span></a>
   </div>
 </li>
@@ -294,24 +293,8 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#manuscript" id="toc-manuscript" class="nav-link active" data-scroll-target="#manuscript">📁 manuscript</a></li>
-  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">📁 content</a></li>
-  <li><a href="#figs" id="toc-figs" class="nav-link" data-scroll-target="#figs">📁 figs</a></li>
-  <li><a href="#docs" id="toc-docs" class="nav-link" data-scroll-target="#docs">📁 docs</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">📁 data</a></li>
-  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">📁 output</a></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">📁 code</a>
-  <ul class="collapse">
-  <li><a href="#commonr.r" id="toc-commonr.r" class="nav-link" data-scroll-target="#commonr.r"><strong>_commonR.R</strong></a></li>
-  </ul></li>
-  <li><a href="#supplement" id="toc-supplement" class="nav-link" data-scroll-target="#supplement">📁 supplement</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/folderStructure.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/folderStructure.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -319,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Folder Structure &amp; Content</h1>
+<h1 class="title">New Content</h1>
 </div>
 
 
@@ -336,72 +319,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This template provides a set of standard folders for specific types of files. We recommend following these standard approaches as consistency allows us to follow each other’s research workflow.</p>
-<p>Here we further explain how to work with this folder structure, with tips and tricks to make your work more accessible, reproducible, and to help Future You!</p>
-<section id="manuscript" class="level2">
-<h2 class="anchored" data-anchor-id="manuscript">📁 manuscript</h2>
-<p>Manuscript for Report. This may contain one or more versions of the manuscript in one or more formats. This folder does <strong>not</strong> serve as the output location for rendered versions of the manuscript (those would be saved in the <strong><em>docs</em></strong> folder). Typically, this would be reserved for final manuscripts or manuscripts saved in an alternative format or manually modified (not direct rendered output).</p>
-</section>
-<section id="content" class="level2">
-<h2 class="anchored" data-anchor-id="content">📁 content</h2>
-<p>This Research Compendium template is formatted for a HTML (website) output, and all chapters/sections for online report should reside in this content folder.</p>
-</section>
-<section id="figs" class="level2">
-<h2 class="anchored" data-anchor-id="figs">📁 figs</h2>
-<p>Contains all figures generated for the analysis. Your code to create figures should be saved in the <strong><em>code</em></strong> folder, and it should automatically save figure output directly to this <strong><em>figs</em></strong> folder. All figure names should be descriptive <strong>not</strong> based on the # of the figure (as this may change).</p>
-</section>
-<section id="docs" class="level2">
-<h2 class="anchored" data-anchor-id="docs">📁 docs</h2>
-<p>Contains rendered versions of the reports (if applicable). Note that this is different from the <strong><em>manuscript</em></strong> folder, which would have version(s) of the manuscript <strong>not</strong> rendered directly from the repository.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note: Need to check if this is relevant for this particular HTML output format
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-</section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">📁 data</h2>
-<p>Contains ORIGINAL raw or raw-derived data. Github is <em>NOT</em> an appropriate platform for saving large files or large numbers of files. You will need to save your raw data (and possible other large data products) in an alternative location, such as NCEI, <a href="https://figshare.com/">Figshare</a>, or <a href="https://zenodo.org/">Zenodo</a>. We recommend that you identify the location of all raw data (WHERE?). As this data is intended to be ORIGINAL data, we recommend that modified or intermediate data or data products (that are modified by code stored in the <strong><em>code</em></strong> folder) be stored in the <strong><em>output</em></strong> folder.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note: Where do we recommend that they identify the location of any data or data products not directly saved to this repository? In the readme? or the index file?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-</section>
-<section id="output" class="level2">
-<h2 class="anchored" data-anchor-id="output">📁 output</h2>
-<p>This can include any modified or intermediate data or data products (data in data folder is ORIGINAL), and data in output may be modified using code stored in <strong><em>code</em></strong> folder.</p>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">📁 code</h2>
-<p>Scripts that actually do things. If using R, your script should use the <a href="https://here.r-lib.org/">here package</a> rather than setwd() to build paths to files and allow for more efficient reproduction of workflow. Script should automatically access data in the data folder and save output to relevant folders (output, figs).</p>
-<section id="commonr.r" class="level3">
-<h3 class="anchored" data-anchor-id="commonr.r"><strong>_commonR.R</strong></h3>
-<p>We recommend saving commonly used functions in the _commonR.R file (assuming you are using R for your analysis– if not, you can delete this file). This is a good place to identify the libraries to load, any themes or common formatting requirements, or other common functions. Ideally these types of functions are only located in <strong>one</strong> place, so that they only need to be changed in one place. You can then source this file in other code (reduces redundancy and allows you to modify these basic functions in one place instead of throughout your various scripts).</p>
-</section>
-</section>
-<section id="supplement" class="level2">
-<h2 class="anchored" data-anchor-id="supplement">📁 supplement</h2>
-<p>Supplementary files that are not data, script, or components of the manuscript.</p>
+<p>In Progress</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -816,15 +736,6 @@ Note: Where do we recommend that they identify the location of any data or data 
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Home">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -833,7 +744,7 @@ Note: Where do we recommend that they identify the location of any data or data 
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/folderStructure.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/folderStructure.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/NewPage.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/NewPage.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
