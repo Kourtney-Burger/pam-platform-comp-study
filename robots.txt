@@ -1,1 +1,1 @@
-Sitemap: https://sael-swfsc.github.io/PAM_template_ResearchCompendium/sitemap.xml
+Sitemap: https://kourtney-burger.github.io/pam-platform-comp-study/sitemap.xml
