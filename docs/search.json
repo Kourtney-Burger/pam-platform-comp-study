@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Passive Acoustic Monitoring Slow Moving Platform Comparison Study",
+    "section": "",
+    "text": "Project Overview\nThis project will aim to to assess the performance of two slow moving, passive acoustic recording platforms. Several factors will be considered in this comparison study including the platform’s ability to detect low frequency baleen whale calls, overall operational metrics, and … Blue and fin whale calls collected from drifting acoustic buoys deployed during the 2024 California Current Cetacean and Ecosystem Assessment Cruise (CalCurCEAS) and a concurrent glider survey will be used in this assessment. This study will use the Low Frequency Detection and Classification System (cite Mark) to detect and classify baleen whale calls.\n\n\nOutline/To-Do\n\nTest LFDCS on ADRIFT data where blue/fin presence is known and compare results\n\nif it performs well, test it on glider data with known blue/fin presence\nif it performs poorly, use manual detection methods for calls\n\nAssess drifter and glider acoustics, operational, and resource metrics\n\ndeployment capacity, expenses, personnel needs,\nMore examples from Shannon for glider rodeo - Operational, Bioacoustics, responses from experience users\n\nBuild out Zotero library with other platform comparison studies\n\nwhat do other people use to assess performance"
+  }
+]

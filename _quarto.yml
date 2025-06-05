@@ -18,8 +18,8 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
-    favicon: images/favicon.ico
+    logo: content/images/CalCurCEAS_logo.JPG
+    favicon: favicon.ico
     pinned: true
     align: center
     tools: 
