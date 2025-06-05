@@ -1,5 +1,4 @@
-# NOAA-PAM Research Compendium Template
-**Rename above to your *Project Name***
+# PAM Slow Moving Platform Comparison Study
 
 ## Link to Final Report
 **Provide link to final report**
@@ -8,7 +7,7 @@
 **Provide recommended citation**
 
 ## Research Compendium
-This repository contains data and code for the ***Project Name***, including 
+This repository contains data and code for the ***PAM Slow Moving Platform Comparison Study***, including 
 
 ## Contents
 This directory contains:
