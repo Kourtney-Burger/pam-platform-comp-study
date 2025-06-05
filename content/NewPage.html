@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -320,10 +340,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>In Progress</p>
+<p>Test citation <span class="citation" data-cites="davis2017">(<a href="#ref-davis2017" role="doc-biblioref">Davis et al. 2017</a>)</span></p>
+<p><span class="citation" data-cites="ahonen2017">Ahonen et al. (<a href="#ref-ahonen2017" role="doc-biblioref">2017</a>)</span></p>
+<p><span class="citation" data-cites="cauchy2023">(<a href="#ref-cauchy2023" role="doc-biblioref">Cauchy et al. 2023</a>)</span></p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-ahonen2017" class="csl-entry" role="listitem">
+Ahonen, Heidi, Kathleen M. Stafford, Laura de Steur, Christian Lydersen, Øystein Wiig, and Kit M. Kovacs. 2017. <span>“The Underwater Soundscape in Western Fram Strait: Breeding Ground of Spitsbergen’s Endangered Bowhead Whales.”</span> <em>Marine Pollution Bulletin</em> 123 (1): 97–112. <a href="https://doi.org/10.1016/j.marpolbul.2017.09.019">https://doi.org/10.1016/j.marpolbul.2017.09.019</a>.
+</div>
+<div id="ref-cauchy2023" class="csl-entry" role="listitem">
+Cauchy, Pierre, Karen J. Heywood, Nathan D. Merchant, Denise Risch, Bastien Y. Queste, and Pierre Testor. 2023. <span>“Gliders for passive acoustic monitoring of the oceanic environment.”</span> <em>Frontiers in Remote Sensing</em> 4 (February). <a href="https://doi.org/10.3389/frsen.2023.1106533">https://doi.org/10.3389/frsen.2023.1106533</a>.
+</div>
+<div id="ref-davis2017" class="csl-entry" role="listitem">
+Davis, Genevieve E., Mark F. Baumgartner, Julianne M. Bonnell, Joel Bell, Catherine Berchok, Jacqueline Bort Thornton, Solange Brault, et al. 2017. <span>“Long-Term Passive Acoustic Recordings Track the Changing Distribution of North Atlantic Right Whales (Eubalaena Glacialis) from 2004 to 2014.”</span> <em>Scientific Reports</em> 7 (1): 13460. <a href="https://doi.org/10.1038/s41598-017-13359-3">https://doi.org/10.1038/s41598-017-13359-3</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
