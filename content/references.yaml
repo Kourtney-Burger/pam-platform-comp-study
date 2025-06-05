@@ -1,0 +1,165 @@
+---
+references:
+- id: ahonen2017
+  accessed: "19:12:49"
+  author:
+  - family: Ahonen
+    given: Heidi
+  - family: Stafford
+    given: Kathleen M.
+  - family: Steur
+    given: Laura
+    non-dropping-particle: de
+  - family: Lydersen
+    given: Christian
+  - family: Wiig
+    given: Øystein
+  - family: Kovacs
+    given: Kit M.
+  container-title: Marine Pollution Bulletin
+  container-title-short: Marine Pollution Bulletin
+  DOI: 10.1016/j.marpolbul.2017.09.019
+  ISSN: 0025-326X
+  issue: 1
+  issued: 2017-10-15
+  key: 57L9H9TZ
+  language: en
+  libraryID: 1
+  Number: 1
+  page: 97-112
+  providerKey: Zotero
+  source: ScienceDirect
+  title: "The underwater soundscape in western Fram Strait: Breeding
+    ground of Spitsbergen's endangered bowhead whales"
+  title-short: The underwater soundscape in western Fram Strait
+  type: article-journal
+  URL: "https://www.sciencedirect.com/science/article/pii/S0025326X17307543"
+  volume: 123
+- id: cauchy2023
+  accessed: "22:46:53"
+  author:
+  - family: Cauchy
+    given: Pierre
+  - family: Heywood
+    given: Karen J.
+  - family: Merchant
+    given: Nathan D.
+  - family: Risch
+    given: Denise
+  - family: Queste
+    given: Bastien Y.
+  - family: Testor
+    given: Pierre
+  container-title: Frontiers in Remote Sensing
+  container-title-short: Front. Remote Sens.
+  DOI: 10.3389/frsen.2023.1106533
+  ISSN: 2673-6187
+  issued: 2023-02-09
+  key: V7WUYKBS
+  language: English
+  libraryID: 1
+  providerKey: 2509FBBE-5BB0-44C4-B119-6083A81ED673
+  Publisher: Frontiers
+  source: Frontiers
+  title: Gliders for passive acoustic monitoring of the oceanic
+    environment
+  type: article-journal
+  URL: "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2023.1106533/full"
+  volume: 4
+- id: davis2017
+  accessed: "21:13:47"
+  author:
+  - family: Davis
+    given: Genevieve E.
+  - family: Baumgartner
+    given: Mark F.
+  - family: Bonnell
+    given: Julianne M.
+  - family: Bell
+    given: Joel
+  - family: Berchok
+    given: Catherine
+  - family: Bort Thornton
+    given: Jacqueline
+  - family: Brault
+    given: Solange
+  - family: Buchanan
+    given: Gary
+  - family: Charif
+    given: Russell A.
+  - family: Cholewiak
+    given: Danielle
+  - family: Clark
+    given: Christopher W.
+  - family: Corkeron
+    given: Peter
+  - family: Delarue
+    given: Julien
+  - family: Dudzinski
+    given: Kathleen
+  - family: Hatch
+    given: Leila
+  - family: Hildebrand
+    given: John
+  - family: Hodge
+    given: Lynne
+  - family: Klinck
+    given: Holger
+  - family: Kraus
+    given: Scott
+  - family: Martin
+    given: Bruce
+  - family: Mellinger
+    given: David K.
+  - family: Moors-Murphy
+    given: Hilary
+  - family: Nieukirk
+    given: Sharon
+  - family: Nowacek
+    given: Douglas P.
+  - family: Parks
+    given: Susan
+  - family: Read
+    given: Andrew J.
+  - family: Rice
+    given: Aaron N.
+  - family: Risch
+    given: Denise
+  - family: Širović
+    given: Ana
+  - family: Soldevilla
+    given: Melissa
+  - family: Stafford
+    given: Kate
+  - family: Stanistreet
+    given: Joy E.
+  - family: Summers
+    given: Erin
+  - family: Todd
+    given: Sean
+  - family: Warde
+    given: Ann
+  - family: Van Parijs
+    given: Sofie M.
+  container-title: Scientific Reports
+  container-title-short: Sci Rep
+  DOI: 10.1038/s41598-017-13359-3
+  ISSN: 2045-2322
+  issue: 1
+  issued: 2017-10-18
+  key: YSHGJC7Y
+  language: en
+  libraryID: 1
+  Number: 1
+  page: 13460
+  providerKey: Zotero
+  Publisher: Nature
+  rights: 2017 The Author(s)
+  source: www.nature.com
+  title: Long-term passive acoustic recordings track the changing
+    distribution of North Atlantic right whales (Eubalaena glacialis)
+    from 2004 to 2014
+  type: article-journal
+  URL: "https://www.nature.com/articles/s41598-017-13359-3"
+  volume: 7
+...

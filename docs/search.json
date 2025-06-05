@@ -5,5 +5,75 @@
     "title": "Passive Acoustic Monitoring Slow Moving Platform Comparison Study",
     "section": "",
     "text": "Project Overview\nThis project will aim to to assess the performance of two slow moving, passive acoustic recording platforms. Several factors will be considered in this comparison study including the platform’s ability to detect low frequency baleen whale calls, overall operational metrics, and … Blue and fin whale calls collected from drifting acoustic buoys deployed during the 2024 California Current Cetacean and Ecosystem Assessment Cruise (CalCurCEAS) and a concurrent glider survey will be used in this assessment. This study will use the Low Frequency Detection and Classification System (cite Mark) to detect and classify baleen whale calls.\n\n\nOutline/To-Do\n\nTest LFDCS on ADRIFT data where blue/fin presence is known and compare results\n\nif it performs well, test it on glider data with known blue/fin presence\nif it performs poorly, use manual detection methods for calls\n\nAssess drifter and glider acoustics, operational, and resource metrics\n\ndeployment capacity, expenses, personnel needs,\nMore examples from Shannon for glider rodeo - Operational, Bioacoustics, responses from experience users\n\nBuild out Zotero library with other platform comparison studies\n\nwhat do other people use to assess performance"
+  },
+  {
+    "objectID": "content/NewPage.html",
+    "href": "content/NewPage.html",
+    "title": "New Content",
+    "section": "",
+    "text": "In Progress\nTest citation (Davis et al. 2017)\nAhonen et al. (2017)\n(Cauchy et al. 2023)\n\n\n\n\nReferences\n\nAhonen, Heidi, Kathleen M. Stafford, Laura de Steur, Christian Lydersen, Øystein Wiig, and Kit M. Kovacs. 2017. “The Underwater Soundscape in Western Fram Strait: Breeding Ground of Spitsbergen’s Endangered Bowhead Whales.” Marine Pollution Bulletin 123 (1): 97–112. https://doi.org/10.1016/j.marpolbul.2017.09.019.\n\n\nCauchy, Pierre, Karen J. Heywood, Nathan D. Merchant, Denise Risch, Bastien Y. Queste, and Pierre Testor. 2023. “Gliders for passive acoustic monitoring of the oceanic environment.” Frontiers in Remote Sensing 4 (February). https://doi.org/10.3389/frsen.2023.1106533.\n\n\nDavis, Genevieve E., Mark F. Baumgartner, Julianne M. Bonnell, Joel Bell, Catherine Berchok, Jacqueline Bort Thornton, Solange Brault, et al. 2017. “Long-Term Passive Acoustic Recordings Track the Changing Distribution of North Atlantic Right Whales (Eubalaena Glacialis) from 2004 to 2014.” Scientific Reports 7 (1): 13460. https://doi.org/10.1038/s41598-017-13359-3."
+  },
+  {
+    "objectID": "content/folderStructure.html",
+    "href": "content/folderStructure.html",
+    "title": "Folder Structure & Content",
+    "section": "",
+    "text": "This template provides a set of standard folders for specific types of files. We recommend following these standard approaches as consistency allows us to follow each other’s research workflow.\nHere we further explain how to work with this folder structure, with tips and tricks to make your work more accessible, reproducible, and to help Future You!"
+  },
+  {
+    "objectID": "content/folderStructure.html#manuscript",
+    "href": "content/folderStructure.html#manuscript",
+    "title": "Folder Structure & Content",
+    "section": "📁 manuscript",
+    "text": "📁 manuscript\nManuscript for Report. This may contain one or more versions of the manuscript in one or more formats. This folder does not serve as the output location for rendered versions of the manuscript (those would be saved in the docs folder). Typically, this would be reserved for final manuscripts or manuscripts saved in an alternative format or manually modified (not direct rendered output)."
+  },
+  {
+    "objectID": "content/folderStructure.html#content",
+    "href": "content/folderStructure.html#content",
+    "title": "Folder Structure & Content",
+    "section": "📁 content",
+    "text": "📁 content\nThis Research Compendium template is formatted for a HTML (website) output, and all chapters/sections for online report should reside in this content folder."
+  },
+  {
+    "objectID": "content/folderStructure.html#figs",
+    "href": "content/folderStructure.html#figs",
+    "title": "Folder Structure & Content",
+    "section": "📁 figs",
+    "text": "📁 figs\nContains all figures generated for the analysis. Your code to create figures should be saved in the code folder, and it should automatically save figure output directly to this figs folder. All figure names should be descriptive not based on the # of the figure (as this may change)."
+  },
+  {
+    "objectID": "content/folderStructure.html#docs",
+    "href": "content/folderStructure.html#docs",
+    "title": "Folder Structure & Content",
+    "section": "📁 docs",
+    "text": "📁 docs\nContains rendered versions of the reports (if applicable). Note that this is different from the manuscript folder, which would have version(s) of the manuscript not rendered directly from the repository.\n\n\n\n\n\n\nNote: Need to check if this is relevant for this particular HTML output format"
+  },
+  {
+    "objectID": "content/folderStructure.html#data",
+    "href": "content/folderStructure.html#data",
+    "title": "Folder Structure & Content",
+    "section": "📁 data",
+    "text": "📁 data\nContains ORIGINAL raw or raw-derived data. Github is NOT an appropriate platform for saving large files or large numbers of files. You will need to save your raw data (and possible other large data products) in an alternative location, such as NCEI, Figshare, or Zenodo. We recommend that you identify the location of all raw data (WHERE?). As this data is intended to be ORIGINAL data, we recommend that modified or intermediate data or data products (that are modified by code stored in the code folder) be stored in the output folder.\n\n\n\n\n\n\nNote: Where do we recommend that they identify the location of any data or data products not directly saved to this repository? In the readme? or the index file?"
+  },
+  {
+    "objectID": "content/folderStructure.html#output",
+    "href": "content/folderStructure.html#output",
+    "title": "Folder Structure & Content",
+    "section": "📁 output",
+    "text": "📁 output\nThis can include any modified or intermediate data or data products (data in data folder is ORIGINAL), and data in output may be modified using code stored in code folder."
+  },
+  {
+    "objectID": "content/folderStructure.html#code",
+    "href": "content/folderStructure.html#code",
+    "title": "Folder Structure & Content",
+    "section": "📁 code",
+    "text": "📁 code\nScripts that actually do things. If using R, your script should use the here package rather than setwd() to build paths to files and allow for more efficient reproduction of workflow. Script should automatically access data in the data folder and save output to relevant folders (output, figs).\n\n_commonR.R\nWe recommend saving commonly used functions in the _commonR.R file (assuming you are using R for your analysis– if not, you can delete this file). This is a good place to identify the libraries to load, any themes or common formatting requirements, or other common functions. Ideally these types of functions are only located in one place, so that they only need to be changed in one place. You can then source this file in other code (reduces redundancy and allows you to modify these basic functions in one place instead of throughout your various scripts)."
+  },
+  {
+    "objectID": "content/folderStructure.html#supplement",
+    "href": "content/folderStructure.html#supplement",
+    "title": "Folder Structure & Content",
+    "section": "📁 supplement",
+    "text": "📁 supplement\nSupplementary files that are not data, script, or components of the manuscript."
   }
 ]

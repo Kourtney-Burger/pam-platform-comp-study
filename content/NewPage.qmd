@@ -3,6 +3,13 @@ title: New Content
 editor: 
   markdown: 
     wrap: 72
+bibliography: references.yaml
 ---
 
 In Progress
+
+Test citation [@davis2017]
+
+@ahonen2017
+
+[@cauchy2023]
