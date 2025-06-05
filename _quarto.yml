@@ -7,8 +7,8 @@ project:
 website: 
   page-navigation: true
   title: "NOAA quarto simple" 
-  site-url: "https://sael-swfsc.github.io/PAM_template_ResearchCompendium/" 
-  repo-url: "https://github.com/SAEL-SWFSC/PAM_template_ResearchCompendium"
+  site-url: "https://kourtney-burger.github.io/pam-platform-comp-study/" 
+  repo-url: "https://github.com/Kourtney-Burger/pam-platform-comp-study/"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -23,12 +23,12 @@ website:
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
-        text: "NMFS National Passive Acoustic Monitoring Network"
+#       - icon: globe
+#         href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
+#         text: "NMFS National Passive Acoustic Monitoring Network"
       - icon: github
-        href: https://github.com/SAEL-SWFSC/PAM_template_ResearchCompendium
-        text: "NMFS PAM SI Research Compendium Template"
+        href: https://github.com/Kourtney-Burger/pam-platform-comp-study/
+        text: "PAM Platform Comp Study Research Compendium"
 
     style: "docked"
     search: true
