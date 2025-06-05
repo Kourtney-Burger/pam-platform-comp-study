@@ -23,9 +23,9 @@ website:
     pinned: true
     align: center
     tools: 
-#       - icon: globe
-#         href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
-#         text: "NMFS National Passive Acoustic Monitoring Network"
+      - icon: globe
+        href: https://github.com/Kourtney-Burger
+        text: "Kourtney Burger GitHub"
       - icon: github
         href: https://github.com/Kourtney-Burger/pam-platform-comp-study
         text: "PAM Platform Comp Study Research Compendium"
