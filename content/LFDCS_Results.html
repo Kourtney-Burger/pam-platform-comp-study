@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Folder Structure &amp; Content – NOAA quarto simple</title>
+<title>Initial LFDCS Results – NOAA quarto simple</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../content/ADRIFT_Summary.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -71,6 +72,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="../site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
 
 
 </head>
@@ -246,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Folder Structure &amp; Content</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/LFDCS_Results.html">Initial LFDCS Results</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -290,7 +293,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/LFDCS_Results.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/LFDCS_Results.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Initial LFDCS Results</span></a>
   </div>
 </li>
@@ -304,19 +307,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#manuscript" id="toc-manuscript" class="nav-link active" data-scroll-target="#manuscript">📁 manuscript</a></li>
-  <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">📁 content</a></li>
-  <li><a href="#figs" id="toc-figs" class="nav-link" data-scroll-target="#figs">📁 figs</a></li>
-  <li><a href="#docs" id="toc-docs" class="nav-link" data-scroll-target="#docs">📁 docs</a></li>
-  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">📁 data</a></li>
-  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">📁 output</a></li>
-  <li><a href="#code" id="toc-code" class="nav-link" data-scroll-target="#code">📁 code</a>
+  <li><a href="#adrift-98" id="toc-adrift-98" class="nav-link active" data-scroll-target="#adrift-98">ADRIFT 98</a>
   <ul class="collapse">
-  <li><a href="#commonr.r" id="toc-commonr.r" class="nav-link" data-scroll-target="#commonr.r"><strong>_commonR.R</strong></a></li>
+  <li><a href="#manual-detection-results" id="toc-manual-detection-results" class="nav-link" data-scroll-target="#manual-detection-results">Manual Detection Results</a></li>
+  <li><a href="#lfdcs-unvalidated-detection-results" id="toc-lfdcs-unvalidated-detection-results" class="nav-link" data-scroll-target="#lfdcs-unvalidated-detection-results">LFDCS Unvalidated Detection Results</a>
+  <ul class="collapse">
+  <li><a href="#khz" id="toc-khz" class="nav-link" data-scroll-target="#khz">2 kHz</a></li>
+  <li><a href="#hz" id="toc-hz" class="nav-link" data-scroll-target="#hz">500 Hz</a></li>
   </ul></li>
-  <li><a href="#supplement" id="toc-supplement" class="nav-link" data-scroll-target="#supplement">📁 supplement</a></li>
+  </ul></li>
+  <li><a href="#adrift-71" id="toc-adrift-71" class="nav-link" data-scroll-target="#adrift-71">ADRIFT 71</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/folderStructure.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/folderStructure.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/LFDCS_Results.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/LFDCS_Results.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -324,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Folder Structure &amp; Content</h1>
+<h1 class="title">Initial LFDCS Results</h1>
 </div>
 
 
@@ -341,69 +343,250 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This template provides a set of standard folders for specific types of files. We recommend following these standard approaches as consistency allows us to follow each other’s research workflow.</p>
-<p>Here we further explain how to work with this folder structure, with tips and tricks to make your work more accessible, reproducible, and to help Future You!</p>
-<section id="manuscript" class="level2">
-<h2 class="anchored" data-anchor-id="manuscript">📁 manuscript</h2>
-<p>Manuscript for Report. This may contain one or more versions of the manuscript in one or more formats. This folder does <strong>not</strong> serve as the output location for rendered versions of the manuscript (those would be saved in the <strong><em>docs</em></strong> folder). Typically, this would be reserved for final manuscripts or manuscripts saved in an alternative format or manually modified (not direct rendered output).</p>
-</section>
-<section id="content" class="level2">
-<h2 class="anchored" data-anchor-id="content">📁 content</h2>
-<p>This Research Compendium template is formatted for a HTML (website) output, and all chapters/sections for online report should reside in this content folder.</p>
-</section>
-<section id="figs" class="level2">
-<h2 class="anchored" data-anchor-id="figs">📁 figs</h2>
-<p>Contains all figures generated for the analysis. Your code to create figures should be saved in the <strong><em>code</em></strong> folder, and it should automatically save figure output directly to this <strong><em>figs</em></strong> folder. All figure names should be descriptive <strong>not</strong> based on the # of the figure (as this may change).</p>
-</section>
-<section id="docs" class="level2">
-<h2 class="anchored" data-anchor-id="docs">📁 docs</h2>
-<p>Contains rendered versions of the reports (if applicable). Note that this is different from the <strong><em>manuscript</em></strong> folder, which would have version(s) of the manuscript <strong>not</strong> rendered directly from the repository.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>The narrow band Southern California call library that is currently used on buoys in the Santa Barbara Channel was used on several ADRIFT datasets that have been manually scanned for blues and fins and one ADRIFT dataset that had an AI model applied to it (see <a href="https://sael-swfsc.github.io/Adrift/content/finAI.html">Fin Whale AI in ADRIFT report</a>).</p>
+<p>The clnb_gomlf_blue call library was also initially tested on these drifts. Based on a simple comparison between the clnb_gomlf_blue call library and the manually validated data, it was clear that this library was not appropriate for our data. The following results are from the clnb_socal which includes blue whale (D call, B call tone, B call downsweep, 5 second tone, &amp; A call) and fin whale (20-Hz pulse call) calls.</p>
+<section id="adrift-98" class="level1">
+<h1>ADRIFT 98</h1>
+<p>This drift was chosen because it had the highest percentage of presence hours for blue and fin whales out of the ADRIFT dataset (see ADRIFT Summary above)</p>
+<section id="manual-detection-results" class="level2">
+<h2 class="anchored" data-anchor-id="manual-detection-results">Manual Detection Results</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table caption-top table-sm table-striped small" data-quarto-postprocess="true">
+<caption>Hourly Presence Summary for ADRIFT_098</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;" data-quarto-table-cell-role="th">DriftName</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">UTC</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">bm_presence</th>
+<th style="text-align: center;" data-quarto-table-cell-role="th">bp_presence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-05 23:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 00:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 01:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 02:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 03:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 04:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 05:00:00</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 06:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 07:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 08:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 09:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 10:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 11:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 12:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 13:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 14:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 15:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 16:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 17:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 18:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 19:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 20:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 21:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 22:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">ADRIFT_098</td>
+<td style="text-align: center;">2023-10-06 23:00:00</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="callout-title-container flex-fill">
-Note: Need to check if this is relevant for this particular HTML output format
 </div>
-</div>
-<div class="callout-body-container callout-body">
+</section>
+<section id="lfdcs-unvalidated-detection-results" class="level2">
+<h2 class="anchored" data-anchor-id="lfdcs-unvalidated-detection-results">LFDCS Unvalidated Detection Results</h2>
+<section id="khz" class="level3">
+<h3 class="anchored" data-anchor-id="khz">2 kHz</h3>
+<section id="parameter-file" class="level4">
+<h4 class="anchored" data-anchor-id="parameter-file">Parameter File</h4>
+<pre><code>          Experiment: ADRIFT_098 2kHz WC Call Library LFDCS 2.0 Test
+               Indir: D:\LFDCS\ADRIFT_098\audio\2kHz        
+              Outdir: D:\LFDCS\ADRIFT_098\Output\WCCL\2kHz
+           StartDate: 01/01/06 00:00:00
+        PlatformType: Drifting Buoy
+          PlatformID: ADRIFT_098
+        InstrumentID: 1
+      InstrumentType: Soundtrap
+        FileDateSpec: .YYMMDDhhmmss.
+       FileExtension: wav
+          FileFormat: WAV
+          Originator: Kourtney Burger
+            Location: California Current
+            TimeZone: UTC
+        FileDuration: 1800.0
+               Frame: 512
+             Overlap: 0.75
+              Smooth: 1
 
-</div>
-</div>
+     CallLibraryFile: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clnb_socal\call_library.nc
+   CallLibraryFileBB: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clbb_gom\call_library_broadband_gom.nc</code></pre>
 </section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">📁 data</h2>
-<p>Contains ORIGINAL raw or raw-derived data. Github is <em>NOT</em> an appropriate platform for saving large files or large numbers of files. You will need to save your raw data (and possible other large data products) in an alternative location, such as NCEI, <a href="https://figshare.com/">Figshare</a>, or <a href="https://zenodo.org/">Zenodo</a>. We recommend that you identify the location of all raw data (WHERE?). As this data is intended to be ORIGINAL data, we recommend that modified or intermediate data or data products (that are modified by code stored in the <strong><em>code</em></strong> folder) be stored in the <strong><em>output</em></strong> folder.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note: Where do we recommend that they identify the location of any data or data products not directly saved to this repository? In the readme? or the index file?
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="results" class="level4">
+<h4 class="anchored" data-anchor-id="results">Results</h4>
+</section>
+</section>
+<section id="hz" class="level3">
+<h3 class="anchored" data-anchor-id="hz">500 Hz</h3>
+<section id="parameter-file-1" class="level4">
+<h4 class="anchored" data-anchor-id="parameter-file-1">Parameter File</h4>
+<pre><code>         Experiment: ADRIFT_098 250Hz WC Call Library LFDCS 2.0 Test
+              Indir: D:\LFDCS\ADRIFT_098\audio\500Hz        
+             Outdir: D:\LFDCS\ADRIFT_098\Output\WCCL\250Hz
+          StartDate: 01/01/06 00:00:00
+       PlatformType: Drifting Buoy
+         PlatformID: ADRIFT_098
+       InstrumentID: 1
+     InstrumentType: Soundtrap
+       FileDateSpec: .YYMMDDhhmmss.
+      FileExtension: wav
+         FileFormat: WAV
+         Originator: Kourtney Burger
+           Location: California Current
+               TimeZone: UTC
+       FileDuration: 1800.0
+       ResampleRate: 250
+              Frame: 512
+            Overlap: 0.875
+             Smooth: 1
 
-</div>
-</div>
+
+    CallLibraryFile: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clnb_socal\call_library.nc
+  CallLibraryFileBB: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clbb_gom\call_library_broadband_gom.nc</code></pre>
 </section>
-<section id="output" class="level2">
-<h2 class="anchored" data-anchor-id="output">📁 output</h2>
-<p>This can include any modified or intermediate data or data products (data in data folder is ORIGINAL), and data in output may be modified using code stored in <strong><em>code</em></strong> folder.</p>
-</section>
-<section id="code" class="level2">
-<h2 class="anchored" data-anchor-id="code">📁 code</h2>
-<p>Scripts that actually do things. If using R, your script should use the <a href="https://here.r-lib.org/">here package</a> rather than setwd() to build paths to files and allow for more efficient reproduction of workflow. Script should automatically access data in the data folder and save output to relevant folders (output, figs).</p>
-<section id="commonr.r" class="level3">
-<h3 class="anchored" data-anchor-id="commonr.r"><strong>_commonR.R</strong></h3>
-<p>We recommend saving commonly used functions in the _commonR.R file (assuming you are using R for your analysis– if not, you can delete this file). This is a good place to identify the libraries to load, any themes or common formatting requirements, or other common functions. Ideally these types of functions are only located in <strong>one</strong> place, so that they only need to be changed in one place. You can then source this file in other code (reduces redundancy and allows you to modify these basic functions in one place instead of throughout your various scripts).</p>
+<section id="results-1" class="level4">
+<h4 class="anchored" data-anchor-id="results-1">Results</h4>
 </section>
 </section>
-<section id="supplement" class="level2">
-<h2 class="anchored" data-anchor-id="supplement">📁 supplement</h2>
-<p>Supplementary files that are not data, script, or components of the manuscript.</p>
+</section>
+</section>
+<section id="adrift-71" class="level1">
+<h1>ADRIFT 71</h1>
+<p>This drift was chosen because it had no fin or blue whale manual detections (assessing false positive rate) (see ADRIFT Summary above).</p>
 
 
 </section>
@@ -821,6 +1004,15 @@ Note: Where do we recommend that they identify the location of any data or data 
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/ADRIFT_Summary.html" class="pagination-link" aria-label="ADRIFT Summary">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ADRIFT Summary</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -829,7 +1021,7 @@ Note: Where do we recommend that they identify the location of any data or data 
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/folderStructure.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/folderStructure.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/LFDCS_Results.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/LFDCS_Results.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
