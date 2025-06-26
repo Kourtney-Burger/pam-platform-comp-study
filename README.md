@@ -30,10 +30,13 @@ This directory contains:
 
 ## Funding
 **Provide statement of funding - in progress**
+
 _CalCurCEAS Funding Statement_
+
 This study was funded by the U.S. Department of the Interior, Bureau of Ocean Energy Management (BOEM), Environmental Studies Program, Washington, DC, through Interagency Agreement Number M24PG00021 with the Southwest Fisheries Science Center. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the opinions or policies of BOEM, nor does mention of trade names or commercial products constitute endorsement or recommendation for use.
 
 _IRA Funding Statement_
+
 
 ### Disclaimer
 
