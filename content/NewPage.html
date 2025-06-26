@@ -335,6 +335,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#process" id="toc-process" class="nav-link active" data-scroll-target="#process">Process</a></li>
   <li><a href="#adrift-summary" id="toc-adrift-summary" class="nav-link" data-scroll-target="#adrift-summary">ADRIFT Summary</a></li>
+  <li><a href="#initial-lfdcs-results" id="toc-initial-lfdcs-results" class="nav-link" data-scroll-target="#initial-lfdcs-results">Initial LFDCS Results</a>
+  <ul class="collapse">
+  <li><a href="#adrift-98" id="toc-adrift-98" class="nav-link" data-scroll-target="#adrift-98">ADRIFT 98</a></li>
+  <li><a href="#adrift-71" id="toc-adrift-71" class="nav-link" data-scroll-target="#adrift-71">ADRIFT 71</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/edit/main/content/NewPage.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/blob/main/content/NewPage.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/Kourtney-Burger/pam-platform-comp-study/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -361,8 +366,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="process" class="level3">
-<h3 class="anchored" data-anchor-id="process">Process</h3>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
 <ul>
 <li><p>identify drifts with high percentage of blue and fin detections to test lfdcs on</p>
 <ul>
@@ -372,107 +377,119 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>do the same for glider deployment</p></li>
 </ul>
 </section>
-<section id="adrift-summary" class="level3">
-<h3 class="anchored" data-anchor-id="adrift-summary">ADRIFT Summary</h3>
+<section id="adrift-summary" class="level2">
+<h2 class="anchored" data-anchor-id="adrift-summary">ADRIFT Summary</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">"../_data/ADRIFT/bm_bp_presence_summary.rds"</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>    DriftName n_total    bm_pct    bp_pct   both_pct
-1  ADRIFT_098      25 96.000000 96.000000 92.0000000
-2  ADRIFT_032      61 91.803279 88.524590 83.6065574
-3  ADRIFT_107      96 75.000000 98.958333 75.0000000
-4  ADRIFT_103      99 74.747475 98.989899 74.7474747
-5  ADRIFT_083     116 97.413793 75.000000 72.4137931
-6  ADRIFT_101      98 76.530612 92.857143 71.4285714
-7  ADRIFT_091      76 93.421053 67.105263 64.4736842
-8  ADRIFT_105      99 65.656566 95.959596 63.6363636
-9  ADRIFT_033      62 93.548387 56.451613 56.4516129
-10 ADRIFT_097      25 96.000000 60.000000 56.0000000
-11 ADRIFT_081     117 81.196581 63.247863 51.2820513
-12 ADRIFT_100      26 76.923077 57.692308 50.0000000
-13 ADRIFT_088      76 85.526316 51.315789 48.6842105
-14 ADRIFT_082      94 85.106383 51.063830 46.8085106
-15 ADRIFT_090      29 86.206897 37.931034 37.9310345
-16 ADRIFT_102      99 35.353535 98.989899 35.3535354
-17 ADRIFT_027      97 63.917526 47.422680 31.9587629
-18 ADRIFT_089      26 88.461538 30.769231 30.7692308
-19 ADRIFT_038      81 56.790123 37.037037 28.3950617
-20 ADRIFT_104     100 21.000000 59.000000 19.0000000
-21 ADRIFT_036      85 54.117647 21.176471 17.6470588
-22 ADRIFT_106      99 51.515152 29.292929 14.1414141
-23 ADRIFT_034      95 90.526316 13.684211 13.6842105
-24 ADRIFT_001     160 81.250000  6.250000  6.2500000
-25 ADRIFT_080     121 86.776860  5.785124  5.7851240
-26 ADRIFT_028     100 65.000000  6.000000  5.0000000
-27 ADRIFT_037     114 45.614035  2.631579  2.6315789
-28 ADRIFT_030      90 77.777778  7.777778  2.2222222
-29 ADRIFT_079     118 49.152542  1.694915  1.6949153
-30 ADRIFT_041      74  8.108108 21.621622  1.3513514
-31 ADRIFT_031      87 64.367816  3.448276  1.1494253
-32 ADRIFT_108      97 29.896907  5.154639  1.0309278
-33 ADRIFT_003     215 25.116279  7.906977  0.9302326
-34 ADRIFT_002     173  1.156069  5.202312  0.0000000
-35 ADRIFT_005     292  0.000000  9.589041  0.0000000
-36 ADRIFT_006      76 65.789474  0.000000  0.0000000
-37 ADRIFT_007     330 10.909091  0.000000  0.0000000
-38 ADRIFT_012      89  0.000000 12.359551  0.0000000
-39 ADRIFT_013     265  0.000000  1.509434  0.0000000
-40 ADRIFT_015      71  0.000000  0.000000  0.0000000
-41 ADRIFT_017      74  0.000000  1.351351  0.0000000
-42 ADRIFT_018      74  0.000000  1.351351  0.0000000
-43 ADRIFT_019     103  0.000000  0.000000  0.0000000
-44 ADRIFT_020      98  0.000000  0.000000  0.0000000
-45 ADRIFT_021      98  0.000000  0.000000  0.0000000
-46 ADRIFT_022      96  0.000000  0.000000  0.0000000
-47 ADRIFT_023     100  0.000000  0.000000  0.0000000
-48 ADRIFT_024      98  0.000000  1.020408  0.0000000
-49 ADRIFT_025      95  0.000000 11.578947  0.0000000
-50 ADRIFT_026      97  0.000000  0.000000  0.0000000
-51 ADRIFT_039      72  1.388889  0.000000  0.0000000
-52 ADRIFT_040      73 17.808219  0.000000  0.0000000
-53 ADRIFT_042     102  0.000000 33.333333  0.0000000
-54 ADRIFT_043      87  0.000000 21.839080  0.0000000
-55 ADRIFT_044      98  0.000000 15.306122  0.0000000
-56 ADRIFT_045      90  0.000000 34.444444  0.0000000
-57 ADRIFT_046     123  0.000000  3.252033  0.0000000
-58 ADRIFT_047     123  0.000000 26.829268  0.0000000
-59 ADRIFT_048     168  0.000000 20.238095  0.0000000
-60 ADRIFT_049     118  0.000000 75.423729  0.0000000
-61 ADRIFT_050     120  0.000000  3.333333  0.0000000
-62 ADRIFT_051     119  0.000000  6.722689  0.0000000
-63 ADRIFT_052     122  0.000000 52.459016  0.0000000
-64 ADRIFT_053     122  0.000000 49.180328  0.0000000
-65 ADRIFT_054      48  0.000000 37.500000  0.0000000
-66 ADRIFT_055      48  0.000000 14.583333  0.0000000
-67 ADRIFT_057      47  0.000000  2.127660  0.0000000
-68 ADRIFT_058      83  0.000000  0.000000  0.0000000
-69 ADRIFT_059      85  0.000000  0.000000  0.0000000
-70 ADRIFT_060      85  0.000000  0.000000  0.0000000
-71 ADRIFT_061      86  0.000000  0.000000  0.0000000
-72 ADRIFT_062      75  0.000000  0.000000  0.0000000
-73 ADRIFT_063      73  0.000000 47.945205  0.0000000
-74 ADRIFT_064      78  0.000000  0.000000  0.0000000
-75 ADRIFT_065      77  0.000000 18.181818  0.0000000
-76 ADRIFT_067      94  0.000000  0.000000  0.0000000
-77 ADRIFT_068      65  0.000000  0.000000  0.0000000
-78 ADRIFT_070      66  0.000000  0.000000  0.0000000
-79 ADRIFT_071      67  0.000000  0.000000  0.0000000
-80 ADRIFT_072     140  0.000000  2.857143  0.0000000
-81 ADRIFT_073      85  0.000000  0.000000  0.0000000
-82 ADRIFT_074      99  0.000000  0.000000  0.0000000
-83 ADRIFT_075      87  0.000000  2.298851  0.0000000
-84 ADRIFT_077      86  0.000000  1.162791  0.0000000
-85 ADRIFT_078      88  3.409091  9.090909  0.0000000
-86 ADRIFT_085     149  0.000000 24.832215  0.0000000
-87 ADRIFT_086      85  0.000000 72.941176  0.0000000
-88 ADRIFT_087      85  0.000000 91.764706  0.0000000
-89 ADRIFT_092     105 43.809524  0.000000  0.0000000
-90 ADRIFT_099      25 56.000000  8.000000  0.0000000</code></pre>
+<pre><code>    DriftName n_hours_total    bm_pct    bp_pct   both_pct
+1  ADRIFT_098            25 96.000000 96.000000 92.0000000
+2  ADRIFT_032            61 91.803279 88.524590 83.6065574
+3  ADRIFT_107            96 75.000000 98.958333 75.0000000
+4  ADRIFT_103            99 74.747475 98.989899 74.7474747
+5  ADRIFT_083           116 97.413793 75.000000 72.4137931
+6  ADRIFT_101            98 76.530612 92.857143 71.4285714
+7  ADRIFT_091            76 93.421053 67.105263 64.4736842
+8  ADRIFT_105            99 65.656566 95.959596 63.6363636
+9  ADRIFT_033            62 93.548387 56.451613 56.4516129
+10 ADRIFT_097            25 96.000000 60.000000 56.0000000
+11 ADRIFT_081           117 81.196581 63.247863 51.2820513
+12 ADRIFT_100            26 76.923077 57.692308 50.0000000
+13 ADRIFT_088            76 85.526316 51.315789 48.6842105
+14 ADRIFT_082            94 85.106383 51.063830 46.8085106
+15 ADRIFT_090            29 86.206897 37.931034 37.9310345
+16 ADRIFT_102            99 35.353535 98.989899 35.3535354
+17 ADRIFT_027            97 63.917526 47.422680 31.9587629
+18 ADRIFT_089            26 88.461538 30.769231 30.7692308
+19 ADRIFT_038            81 56.790123 37.037037 28.3950617
+20 ADRIFT_104           100 21.000000 59.000000 19.0000000
+21 ADRIFT_036            85 54.117647 21.176471 17.6470588
+22 ADRIFT_106            99 51.515152 29.292929 14.1414141
+23 ADRIFT_034            95 90.526316 13.684211 13.6842105
+24 ADRIFT_001           160 81.250000  6.250000  6.2500000
+25 ADRIFT_080           121 86.776860  5.785124  5.7851240
+26 ADRIFT_028           100 65.000000  6.000000  5.0000000
+27 ADRIFT_037           114 45.614035  2.631579  2.6315789
+28 ADRIFT_030            90 77.777778  7.777778  2.2222222
+29 ADRIFT_079           118 49.152542  1.694915  1.6949153
+30 ADRIFT_041            74  8.108108 21.621622  1.3513514
+31 ADRIFT_031            87 64.367816  3.448276  1.1494253
+32 ADRIFT_108            97 29.896907  5.154639  1.0309278
+33 ADRIFT_003           215 25.116279  7.906977  0.9302326
+34 ADRIFT_002           173  1.156069  5.202312  0.0000000
+35 ADRIFT_005           292  0.000000  9.589041  0.0000000
+36 ADRIFT_006            76 65.789474  0.000000  0.0000000
+37 ADRIFT_007           330 10.909091  0.000000  0.0000000
+38 ADRIFT_012            89  0.000000 12.359551  0.0000000
+39 ADRIFT_013           265  0.000000  1.509434  0.0000000
+40 ADRIFT_015            71  0.000000  0.000000  0.0000000
+41 ADRIFT_017            74  0.000000  1.351351  0.0000000
+42 ADRIFT_018            74  0.000000  1.351351  0.0000000
+43 ADRIFT_019           103  0.000000  0.000000  0.0000000
+44 ADRIFT_020            98  0.000000  0.000000  0.0000000
+45 ADRIFT_021            98  0.000000  0.000000  0.0000000
+46 ADRIFT_022            96  0.000000  0.000000  0.0000000
+47 ADRIFT_023           100  0.000000  0.000000  0.0000000
+48 ADRIFT_024            98  0.000000  1.020408  0.0000000
+49 ADRIFT_025            95  0.000000 11.578947  0.0000000
+50 ADRIFT_026            97  0.000000  0.000000  0.0000000
+51 ADRIFT_039            72  1.388889  0.000000  0.0000000
+52 ADRIFT_040            73 17.808219  0.000000  0.0000000
+53 ADRIFT_042           102  0.000000 33.333333  0.0000000
+54 ADRIFT_043            87  0.000000 21.839080  0.0000000
+55 ADRIFT_044            98  0.000000 15.306122  0.0000000
+56 ADRIFT_045            90  0.000000 34.444444  0.0000000
+57 ADRIFT_046           123  0.000000  3.252033  0.0000000
+58 ADRIFT_047           123  0.000000 26.829268  0.0000000
+59 ADRIFT_048           168  0.000000 20.238095  0.0000000
+60 ADRIFT_049           118  0.000000 75.423729  0.0000000
+61 ADRIFT_050           120  0.000000  3.333333  0.0000000
+62 ADRIFT_051           119  0.000000  6.722689  0.0000000
+63 ADRIFT_052           122  0.000000 52.459016  0.0000000
+64 ADRIFT_053           122  0.000000 49.180328  0.0000000
+65 ADRIFT_054            48  0.000000 37.500000  0.0000000
+66 ADRIFT_055            48  0.000000 14.583333  0.0000000
+67 ADRIFT_057            47  0.000000  2.127660  0.0000000
+68 ADRIFT_058            83  0.000000  0.000000  0.0000000
+69 ADRIFT_059            85  0.000000  0.000000  0.0000000
+70 ADRIFT_060            85  0.000000  0.000000  0.0000000
+71 ADRIFT_061            86  0.000000  0.000000  0.0000000
+72 ADRIFT_062            75  0.000000  0.000000  0.0000000
+73 ADRIFT_063            73  0.000000 47.945205  0.0000000
+74 ADRIFT_064            78  0.000000  0.000000  0.0000000
+75 ADRIFT_065            77  0.000000 18.181818  0.0000000
+76 ADRIFT_067            94  0.000000  0.000000  0.0000000
+77 ADRIFT_068            65  0.000000  0.000000  0.0000000
+78 ADRIFT_070            66  0.000000  0.000000  0.0000000
+79 ADRIFT_071            67  0.000000  0.000000  0.0000000
+80 ADRIFT_072           140  0.000000  2.857143  0.0000000
+81 ADRIFT_073            85  0.000000  0.000000  0.0000000
+82 ADRIFT_074            99  0.000000  0.000000  0.0000000
+83 ADRIFT_075            87  0.000000  2.298851  0.0000000
+84 ADRIFT_077            86  0.000000  1.162791  0.0000000
+85 ADRIFT_078            88  3.409091  9.090909  0.0000000
+86 ADRIFT_085           149  0.000000 24.832215  0.0000000
+87 ADRIFT_086            85  0.000000 72.941176  0.0000000
+88 ADRIFT_087            85  0.000000 91.764706  0.0000000
+89 ADRIFT_092           105 43.809524  0.000000  0.0000000
+90 ADRIFT_099            25 56.000000  8.000000  0.0000000</code></pre>
 </div>
 </div>
+</section>
+<section id="initial-lfdcs-results" class="level2">
+<h2 class="anchored" data-anchor-id="initial-lfdcs-results">Initial LFDCS Results</h2>
+<p>The narrow band Southern California call library that is currently used on buoys in the Santa Barbara Channel was used on several ADRIFT datasets that have been manually scanned for blues and fins and one ADRIFT dataset that had an AI model applied to it (see <a href="https://sael-swfsc.github.io/Adrift/content/finAI.html">Fin Whale AI in ADRIFT report</a>).</p>
+<section id="adrift-98" class="level3">
+<h3 class="anchored" data-anchor-id="adrift-98">ADRIFT 98</h3>
+<p>This drift was chosen because it had the highest percentage of presence hours for blue and fin whales out of the ADRIFT dataset (see ADRIFT Summary above)</p>
+</section>
+<section id="adrift-71" class="level3">
+<h3 class="anchored" data-anchor-id="adrift-71">ADRIFT 71</h3>
+<p>This drift was chosen because it had no fin or blue whale manual detections (assessing false positive rate)</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
