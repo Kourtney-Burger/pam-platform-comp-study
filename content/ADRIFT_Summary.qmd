@@ -7,7 +7,7 @@ bibliography: references.yaml
 ---
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE}
-#install.packages("kableExtra")
+install.packages("kableExtra")
 library(kableExtra)
 library(dplyr)
 ADRIFT_drift_summary <- readRDS("../_data/ADRIFT/bm_bp_drift_presence_summary.rds")
