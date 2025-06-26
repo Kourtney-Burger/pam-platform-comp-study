@@ -22,12 +22,14 @@ bm_bp_presence_ADRIFT <- combined %>%
     bm_presence = ifelse(is.na(bm_presence), 0, 1),
     bp_presence = ifelse(is.na(bp_presence), 0, 1)
   )
+# reorder columns
+select(bm_bp_presence_ADRIFT, DriftName, UTC, bm_presencem bp_presence)
 
 # Step 4: Create summary table
 summary_table <- bm_bp_presence_ADRIFT %>%
   group_by(DriftName) %>%
   summarize(
-    n_total = n(),
+    n_hours_total = n(),
     bm_pct = mean(bm_presence == 1) * 100,
     bp_pct = mean(bp_presence == 1) * 100,
     both_pct = mean(bm_presence == 1 & bp_presence == 1) * 100
