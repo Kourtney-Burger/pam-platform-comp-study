@@ -23,7 +23,6 @@ jobs:
         run: Rscript -e 'install.packages(c("rmarkdown", "knitr", "jsonlite", "kableExtra"))'
 
       - name: Set up Quarto
-        run: Rscript -e 'install.packages("kableExtra")'
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           # To install LaTeX to build PDF book 
