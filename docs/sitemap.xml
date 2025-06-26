@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/index.html</loc>
-    <lastmod>2025-06-26T18:33:24.939Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/content/NewPage.html</loc>
-    <lastmod>2025-06-26T17:41:23.250Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/content/folderStructure.html</loc>
-    <lastmod>2025-06-26T16:46:45.980Z</lastmod>
+    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/content/ADRIFT_Summary.html</loc>
+    <lastmod>2025-06-26T21:38:13.165Z</lastmod>
   </url>
   <url>
     <loc>https://kourtney-burger.github.io/pam-platform-comp-study/content/LFDCS_Results.html</loc>
-    <lastmod>2025-06-26T20:42:52.609Z</lastmod>
+    <lastmod>2025-06-26T21:38:15.691Z</lastmod>
   </url>
   <url>
-    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/content/ADRIFT_Summary.html</loc>
-    <lastmod>2025-06-26T20:43:11.135Z</lastmod>
+    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/content/folderStructure.html</loc>
+    <lastmod>2025-06-26T21:38:16.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kourtney-burger.github.io/pam-platform-comp-study/index.html</loc>
+    <lastmod>2025-06-26T21:38:16.909Z</lastmod>
   </url>
 </urlset>
