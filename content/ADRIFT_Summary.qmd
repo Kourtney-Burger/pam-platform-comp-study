@@ -1,0 +1,16 @@
+---
+title: ADRIFT Summary
+editor: 
+  markdown: 
+    wrap: 72
+bibliography: references.yaml
+---
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE}
+library(kableExtra)
+library(dplyr)
+ADRIFT_drift_summary <- readRDS("../_data/ADRIFT/bm_bp_drift_presence_summary.rds")
+ADRIFT_drift_summary %>%
+  kable(align = "c") %>%  # center all columns
+  kable_styling(full_width = FALSE, position = "center")
+```

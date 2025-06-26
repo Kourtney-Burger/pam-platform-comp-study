@@ -8,7 +8,7 @@ page-layout: full
 
 This project will aim to to assess the performance of two slow moving, passive acoustic recording platforms. Several factors will be considered in this comparison study including the platform's ability to detect low frequency baleen whale calls, overall operational metrics, and ... Blue and fin whale calls collected from drifting acoustic buoys deployed during the 2024 California Current Cetacean and Ecosystem Assessment Cruise (CalCurCEAS) and a concurrent glider survey will be used in this assessment. This study will use the Low Frequency Detection and Classification System (cite Mark) to detect and classify baleen whale calls.
 
-# Outline/To-Do 
+# Outline/To-Do
 
 -   Test LFDCS on ADRIFT data where blue/fin presence is known and compare results
     -   if it performs well, test it on glider data with known blue/fin presence

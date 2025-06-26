@@ -23,17 +23,18 @@ bm_bp_presence_ADRIFT <- combined %>%
     bp_presence = ifelse(is.na(bp_presence), 0, 1)
   )
 # reorder columns
-select(bm_bp_presence_ADRIFT, DriftName, UTC, bm_presencem bp_presence)
+bm_bp_presence_ADRIFT <- select(bm_bp_presence_ADRIFT, DriftName, UTC, bm_presence, bp_presence)
+saveRDS(bm_bp_presence_ADRIFT, "_data/ADRIFT/bm_bp_hourly_presence_summary.rds")
 
 # Step 4: Create summary table
 summary_table <- bm_bp_presence_ADRIFT %>%
   group_by(DriftName) %>%
   summarize(
-    n_hours_total = n(),
-    bm_pct = mean(bm_presence == 1) * 100,
-    bp_pct = mean(bp_presence == 1) * 100,
-    both_pct = mean(bm_presence == 1 & bp_presence == 1) * 100
+    "Total Effort Hours" = n(),
+    "Blue Whale Presence" = sprintf("%.2f%%", mean(bm_presence == 1) * 100),
+    "Fin Whale Presence" = sprintf("%.2f%%", mean(bp_presence == 1) * 100),
+    "Blue and Fin Whale Overlapping" = sprintf("%.2f%%", mean(bm_presence == 1 & bp_presence == 1) * 100)
   ) %>%
-  arrange(desc(both_pct))  # Order by highest to lowest both_pct
+  arrange(desc("Blue and Fin Whale Overlapping"))# Order by highest to lowest both_pct
 
-saveRDS(summary_table, "_data/ADRIFT/bm_bp_presence_summary.rds")
+saveRDS(summary_table, "_data/ADRIFT/bm_bp_drift_presence_summary.rds")

@@ -36,8 +36,12 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/folderStructure.qmd
-        text: "Folder Structure & Content"
+      - href: content/ADRIFT_Summary.qmd
+        text: "ADRIFT Summary"
+      - href: content/LFDCS_Results.qmd
+        text: "Initial LFDCS Results"
+      # - href: content/folderStructure.qmd
+      #   text: "Folder Structure & Content"
 
 
         

@@ -1,0 +1,108 @@
+---
+title: Initial LFDCS Results
+editor: 
+  markdown: 
+    wrap: 72
+bibliography: references.yaml
+---
+
+The narrow band Southern California call library that is currently used
+on buoys in the Santa Barbara Channel was used on several ADRIFT
+datasets that have been manually scanned for blues and fins and one
+ADRIFT dataset that had an AI model applied to it (see [Fin Whale AI in
+ADRIFT report](https://sael-swfsc.github.io/Adrift/content/finAI.html)).
+
+The clnb_gomlf_blue call library was also initially tested on these
+drifts. Based on a simple comparison between the clnb_gomlf_blue call
+library and the manually validated data, it was clear that this library
+was not appropriate for our data. The following results are from the
+clnb_socal which includes blue whale (D call, B call tone, B call
+downsweep, 5 second tone, & A call) and fin whale (20-Hz pulse call)
+calls.
+
+# ADRIFT 98
+
+This drift was chosen because it had the highest percentage of presence
+hours for blue and fin whales out of the ADRIFT dataset (see ADRIFT
+Summary above)
+
+## Manual Detection Results
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE}
+library(kableExtra)
+library(dplyr)
+ADRIFT_hourly_summary<- readRDS("../_data/ADRIFT/bm_bp_hourly_presence_summary.rds")
+ADRIFT_98_hourly_summary <- filter(ADRIFT_hourly_summary, DriftName == "ADRIFT_098")
+ADRIFT_98_hourly_summary %>%
+  kable(align = "c", caption = "Hourly Presence Summary for ADRIFT_098") %>%
+  kable_styling(full_width = FALSE, position = "center")
+```
+
+## LFDCS Unvalidated Detection Results
+
+### 2 kHz
+
+#### Parameter File
+
+```         
+          Experiment: ADRIFT_098 2kHz WC Call Library LFDCS 2.0 Test
+               Indir: D:\LFDCS\ADRIFT_098\audio\2kHz        
+              Outdir: D:\LFDCS\ADRIFT_098\Output\WCCL\2kHz
+           StartDate: 01/01/06 00:00:00
+        PlatformType: Drifting Buoy
+          PlatformID: ADRIFT_098
+        InstrumentID: 1
+      InstrumentType: Soundtrap
+        FileDateSpec: .YYMMDDhhmmss.
+       FileExtension: wav
+          FileFormat: WAV
+          Originator: Kourtney Burger
+            Location: California Current
+            TimeZone: UTC
+        FileDuration: 1800.0
+               Frame: 512
+             Overlap: 0.75
+              Smooth: 1
+
+     CallLibraryFile: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clnb_socal\call_library.nc
+   CallLibraryFileBB: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clbb_gom\call_library_broadband_gom.nc
+```
+
+#### Results
+
+### 500 Hz
+
+#### Parameter File
+
+```         
+         Experiment: ADRIFT_098 250Hz WC Call Library LFDCS 2.0 Test
+              Indir: D:\LFDCS\ADRIFT_098\audio\500Hz        
+             Outdir: D:\LFDCS\ADRIFT_098\Output\WCCL\250Hz
+          StartDate: 01/01/06 00:00:00
+       PlatformType: Drifting Buoy
+         PlatformID: ADRIFT_098
+       InstrumentID: 1
+     InstrumentType: Soundtrap
+       FileDateSpec: .YYMMDDhhmmss.
+      FileExtension: wav
+         FileFormat: WAV
+         Originator: Kourtney Burger
+           Location: California Current
+               TimeZone: UTC
+       FileDuration: 1800.0
+       ResampleRate: 250
+              Frame: 512
+            Overlap: 0.875
+             Smooth: 1
+
+
+    CallLibraryFile: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clnb_socal\call_library.nc
+  CallLibraryFileBB: C:\Users\kourtney.burger\Documents\LFDCS\supplemental\call_library\clbb_gom\call_library_broadband_gom.nc
+```
+
+#### Results
+
+# ADRIFT 71
+
+This drift was chosen because it had no fin or blue whale manual
+detections (assessing false positive rate) (see ADRIFT Summary above).
