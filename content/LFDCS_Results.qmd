@@ -29,6 +29,7 @@ Summary above)
 ## Manual Detection Results
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE}
+# install.packages("kableExtra")
 library(kableExtra)
 library(dplyr)
 ADRIFT_hourly_summary<- readRDS("../_data/ADRIFT/bm_bp_hourly_presence_summary.rds")
