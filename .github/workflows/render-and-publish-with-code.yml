@@ -2,7 +2,7 @@ on:
   push:
     branches: main
 
-name: Render and Publish
+name: Render and Publish w/Code
 
 jobs:
   build-deploy:
