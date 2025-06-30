@@ -1,9 +1,9 @@
 # Original render-and-publish workflow from Research Compendium Template (https://github.com/SAEL-SWFSC/PAM_template_ResearchCompendium/blob/main/.github/workflows/render-and-publish.yml)
 # This workflow does not work if you add code to your .qmd files that have additional package dependencies 
 
-# on:
-#   push:
-#     branches: main
+on:
+  push:
+    branches: main
 
 name: Render and Publish
 
